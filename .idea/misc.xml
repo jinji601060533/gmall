@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/gmall-member/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-order/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
       </list>
     </option>
   </component>
