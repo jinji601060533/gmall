@@ -3,6 +3,7 @@ package com.atguigu.gmall.product;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 1.整合mybatis-plus 在common中已依赖，此项目依赖common
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *      在yml文件中配置mapper-locations，告知mubatis plus 映射文件在哪
  */
 @MapperScan("com.atguigu.gmall.product.dao")
+@EnableDiscoveryClient
 @SpringBootApplication
 public class GmallProductApplication {
 
