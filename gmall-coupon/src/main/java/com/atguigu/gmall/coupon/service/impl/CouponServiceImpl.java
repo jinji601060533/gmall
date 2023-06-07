@@ -22,8 +22,6 @@ public class CouponServiceImpl extends ServiceImpl<CouponDao, CouponEntity> impl
                 new Query<CouponEntity>().getPage(params),
                 new QueryWrapper<CouponEntity>()
         );
-
         return new PageUtils(page);
     }
-
 }

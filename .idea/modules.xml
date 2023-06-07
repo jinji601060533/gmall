@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/gmall.iml" filepath="$PROJECT_DIR$/.idea/gmall.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmall-common/gmall-common.iml" filepath="$PROJECT_DIR$/gmall-common/gmall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmall-coupon/gmall-coupon.iml" filepath="$PROJECT_DIR$/gmall-coupon/gmall-coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-gateway/gmall-gateway.iml" filepath="$PROJECT_DIR$/gmall-gateway/gmall-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmall-member/gmall-member.iml" filepath="$PROJECT_DIR$/gmall-member/gmall-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmall-order/gmall-order.iml" filepath="$PROJECT_DIR$/gmall-order/gmall-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmall-product/gmall-product.iml" filepath="$PROJECT_DIR$/gmall-product/gmall-product.iml" />

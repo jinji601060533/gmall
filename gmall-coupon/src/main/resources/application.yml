@@ -5,9 +5,17 @@ spring:
     url: jdbc:mysql://192.168.216.128:3306/gmall_sms
     driver-class-name: com.mysql.jdbc.Driver
   cloud:
+    bootstrap:
+      enabled: true
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: properties
+        namespace: dev-namespace
+        group: DEFAULT_GROUP
+        prefix: gmall-coupon
   application:
     name: gmall-coupon
 
